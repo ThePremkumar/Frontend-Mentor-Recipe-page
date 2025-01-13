@@ -35,8 +35,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [See the solution](https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-grid-OVq3FWezmb)
+- Live Site URL: [Recipe page](https://thepremkumar.github.io/Frontend-Mentor-Recipe-page/)
 
 ## My process
 
