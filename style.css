@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+strong{
+    color: var(--Stone-600);
+}
+body{
+    background-color: rgb(243, 229, 216);
+    display: grid;
+    place-items: center;
+}
+h2{
+    color: var(--Brown-800);
+}
+.container{
+    width: 50%;
+    height: auto;
+    margin: 30px;
+    background-color: var(--White);
+    padding: 2rem;
+    border: 1px transparent;
+    border-radius: 15px;
+}
+
+img{
+    border: 1px transparent;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.simple{
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.simple p{
+    margin-top: 10px;
+}
+.simple h1{
+    color: var(--Stone-900);
+}
+
+
+.cont{
+    width: 90%;
+    height: auto;
+    background-color: var(--Rose-50);
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+.cont ul{
+    padding-left: 15px;
+}
+.pre h3{
+    color: rgb(199, 44, 113);
+    padding-bottom: 6px;
+}
+
+li
+{
+    padding: 8px;
+    color: var(--Stone-600);
+}
+
+p{
+    color: var(--Stone-600);
+    font-size: 16px;
+}
+
+.ing{
+    margin: 10px;
+    margin-top: 25px;
+}
+.ing ul{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.inst{
+    margin: 10px;
+    margin-top: 25px;
+}
+.inst ol{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.table{
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.table p{
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table td:first-child {
+    text-align: left;
+    color: var(--Stone-600);
+}
+
+table td:last-child {
+    text-align: start;
+    font-weight: bold;
+    color: var(--Brown-800);
+}
+
+@media screen and (max-width:376px) {
+    body{
+        background-color: var(--White);
+    }
+
+    .container{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        
+    }
+    img{
+        border-radius: 0;
+    }
+    .main{
+        margin: 10px;
+        padding: 10px;
+    }
+}
